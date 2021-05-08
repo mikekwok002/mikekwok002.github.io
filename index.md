@@ -1,2 +1,2 @@
 
-<a href="mikekwok002.github.io/note1.md">HKDSE</a>
+<a href="https://mikekwok002.github.io/note1">HKDSE</a>
