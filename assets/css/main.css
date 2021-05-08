@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+}
+
+/* content */
+section {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.home-section {
+  height: 90vh;
+  width: 100%;
+  background: url(../image/cover_01.jpg);
+  background-color: gray;
+  background-position: center;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  display: inline-flex;
+  align-items: center;
+}
+
+.photo-container {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-container div {
+  position: relative;
+  min-width: 240px;
+  min-height: 240px;
+  border-radius: 128px;
+  background: rgba(255, 255, 255, 0.8) url(../image/profile.jpg) no-repeat center;
+  background-size: 240px;
+}
+
+.intro-area {
+  position: relative;
+  width: 50%;
+  display: flex;
+}
+
+.intro-area div {
+  position: relative;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.intro-area div h2 {
+  margin: 0;
+}
+
+.intro-area div p:nth-child(2) {
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: lighter;
+}
+
+.intro-area div p:nth-child(3) {
+  font-style: italic;
+}
+
+.intro-area div div#read_more {
+  width: 160px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 2.5px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.intro-area div div#read_more a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.intro-area div div#read_more:hover {
+  background-color: white;
+}
+
+.intro-area div div#read_more:hover a {
+  color: black;
+}
+
+.about-section,
+.homeworks-section {
+  position: relative;
+  display: block;
+  padding: 32px 0 0 32px;
+  height: auto;
+  background-color: white;
+  font-family: 'Poppins';
+}
+
+.about-section h1,
+.homeworks-section h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: lighter;
+  color: black;
+}
+
+.about-section h2 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.hobbies-area {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobby-card {
+  position: relative;
+  max-width: 280px;
+  margin: 30px 30px;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.hobby-card img {
+  border-radius: 8px;
+}
+
+.hobby-card p {
+  margin: 10px;
+  text-align: left;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1)
+}
+
+footer .contact-info {
+  width: 100%; height: 100%;
+  align-items: center;
+  display: inline-flex;
+}
+
+footer .contact-info h2 {
+  margin: 0 0 0 30px;
+  font-family: 'Poppins';
+  font-weight: lighter;
+}
+
+footer .contact-info p {
+  margin: 0 0 0 0px;
+}
+
+/* aos */
+.progress[data-aos='runbar'] {
+  width: 0;
+  transition-property: width;
+}
+
+.progress[data-aos='runbar'].aos-animate {
+  width: var(--per);
+}
