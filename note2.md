@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 # NOTE for HKDSE
 ##主要課程內容
 * 代數
