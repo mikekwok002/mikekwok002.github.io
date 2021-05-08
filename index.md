@@ -1,2 +1,2 @@
 
-<a href="https://www.dsemathshelper.com/notes-and-examples.html">HKDSE</a>
+<a href="mikekwok002.github.io/note1.md">HKDSE</a>
