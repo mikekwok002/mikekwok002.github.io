@@ -1,2 +1,1 @@
-Note
-Example
+Note & Example
