@@ -30,10 +30,18 @@
 .cards-container .card:nth-child(3) {
   background: rgba(99,210,168,0.4);
 }
+.cards-container .card:nth-child(4) {
+  background: rgba(99,78,179,0.4);
+}
+.cards-container .card:nth-child(5) {
+  background: rgba(260,91,180,0.4);
+}
 
 .cards-container .card:nth-child(1):hover,
 .cards-container .card:nth-child(2):hover,
-.cards-container .card:nth-child(3):hover {
+.cards-container .card:nth-child(3):hover,
+.cards-container .card:nth-child(4):hover,
+.cards-container .card:nth-child(5):hover {
   cursor: pointer;
   transform: scale(1.1);
   opacity: 0.8;
